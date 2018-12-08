@@ -1,26 +1,22 @@
 ---
-title: Flutter for Android developers
-description: Learn how to apply Android developer knowledge when building Flutter apps.
+title: Android 개발자들을 위한 Flutter
+설명: Flutter 앱들을 만들때 Android 개발자 지식을 적용하는 방법을 배워봅시다. 
 ---
 
-This document is meant for Android developers looking to apply their
-existing Android knowledge to build mobile apps with Flutter. If you understand
-the fundamentals of the Android framework then you can use this document as a
-jump start to Flutter development.
+이 문서는 Android 개발자들의 Android 지식으로 Flutter로 모바일 앱을 만드는 지식을 적용하는 방식을 나타냅니다.
+당신이 Android 프레임워크의 기반을 이해하고 있다면, Flutter 개발을 시작하는데 이 문서를 사용할 수 있습니다.
 
-Your Android knowledge and skill set are highly valuable when building with
-Flutter, because Flutter relies on the mobile operating system for numerous
-capabilities and configurations. Flutter is a new way to build UIs for mobile,
-but it has a plugin system to communicate with Android (and iOS) for non-UI
-tasks. If you're an expert with Android, you don't have to relearn everything
-to use Flutter.
+너의 안드로이드 지식과 스킬셋은 Flutter로 만드는 데 높은 가치를 가집니다. 왜냐면, Flutter는 다양한 기능들과 
+구성들을 위해 모바일 구동 시스템(OS)을 의존하기 때문입니다.  Flutter는 모바일을 위한 UI들을 만드는 
+새로운 방식입니다, 그러나 그 새로운 방식은 UI를 사용하지 않는 작업(task)들을 위해 Android 
+(그리고 iOS)과 소통(통신)하는 플러그인 시스템을 가지고 있습니다.  당신이 Android 숙력자라면, Flutter를
+사용하는데 모든 것을 다시 배울 필요는 없습니다
 
-This document can be used as a cookbook by jumping around and finding questions
-that are most relevant to your needs.
+이 문서는 Flutter 에 뛰어 들고, 너의 가장 필요적합한 질문들을 찾는 것에 요리 책처럼 사용되어 질 수 있습니다. 
 
 ## Views
 
-### What is the equivalent of a `View` in Flutter?
+### Flutter에서 `View` 와 동등한 것은 무엇인가요? 
 
 {{site.alert.secondary}}
 How is react-style, or _declarative_, programming different than the
